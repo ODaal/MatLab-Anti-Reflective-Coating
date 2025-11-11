@@ -33,6 +33,7 @@ Which allows us to compute the full spectral response from 400–1400 nm.
 
 
 ✅ **Results Summary**
+
 1️⃣ Two-Layer AR Coating
 
 The study first evaluates the reflectivity with no coating, then investigates a two-layer coating.
@@ -40,7 +41,7 @@ The study first evaluates the reflectivity with no coating, then investigates a 
 Key finding:
 For a fixed first layer refractive index n₁ = 1.5, the optimal second layer index is:
 
-✅ n₂ ≈ 2.43
+- n₂ ≈ 2.43
 
 This minimizes reflectivity at the central wavelength (650 nm) and maximizes power transmission.
 
@@ -54,13 +55,14 @@ Additional tests for n₂ = 2.13, 1.83, 2.73, 3.03
 
 These confirm the analytical optimum.
 
+
 2️⃣ Three-Layer AR Coating
 
 The analysis is extended to a 3-layer structure, again deriving the optimal refractive index relationships analytically.
 
 Key finding:
 
-✅ The optimal second layer index becomes n₂ ≈ 2.22
+- The optimal second layer index becomes n₂ ≈ 2.22
 
 A MATLAB sweep shows where power transmission peaks.
 
