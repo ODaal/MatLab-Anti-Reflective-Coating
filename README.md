@@ -1,28 +1,26 @@
 # MatLab-Anti-Reflective-Coating
 
-🎓 ELG3506 – Wideband Anti-Reflective Coating Design
+🎓 **ELG3506 – Wideband Anti-Reflective Coating Design**
 Impact of Multi-Layer Anti-Reflective (AR) Coatings on Solar Energy Production
 
 By Rayane Oubarka & Othmane Daali
 Dec 5, 2023
 
-📄 Overview
+
+📄 **Overview**
 
 This project studies how wideband anti-reflective coatings improve the transmission of electromagnetic waves through photovoltaic (PV) cells. Using the Transfer Matrix Method (TMM), the report analyzes:
 
-Baseline reflectivity (no AR coating)
-
-A 2-layer AR coating
-
-A 3-layer AR coating
-
-Power transmission comparisons
-
-Optimization of refractive indices and layer thicknesses
+  - Baseline reflectivity (no AR coating)
+  - A 2-layer AR coating
+  - A 3-layer AR coating
+  - Power transmission comparisons
+  - Optimization of refractive indices and layer thicknesses
 
 All simulations are performed using MATLAB, and the project includes analytical derivations, numerical modelling, and visualization of reflectivity spectra.
 
-🧠 Theoretical Background
+
+🧠 **Theoretical Background**
 
 We model the multi-layer dielectric stack using the Transfer Matrix Method (TMM):
 
@@ -33,7 +31,8 @@ Each layer is represented by a propagation matrix based on its thickness and ref
 The overall system response is obtained from the product of all matrices from the total transfer matrixes.
 Which allows us to compute the full spectral response from 400–1400 nm.
 
-✅ Results Summary
+
+✅ **Results Summary**
 1️⃣ Two-Layer AR Coating
 
 The study first evaluates the reflectivity with no coating, then investigates a two-layer coating.
@@ -69,7 +68,9 @@ Power vs. Refractive Index Plot
 
 A parametric sweep from n₂ = 0.01 → 4 shows maximum transmitted power near 2.22, confirming the analytical result.
 
-💬 Discussion
+
+
+💬 **Discussion**
 
 Adding AR layers significantly reduces reflectivity across the solar spectrum.
 
@@ -81,7 +82,8 @@ Both analytical and numerical results match closely, validating the TMM approach
 
 Performance strongly depends on choosing the correct refractive index ratios.
 
-🔚 Conclusion
+
+🔚 **Conclusion**
 
 This study shows that:
 
