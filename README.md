@@ -30,80 +30,8 @@ Each interface is represented by a dynamic matrix describing reflection & transm
 
 Each layer is represented by a propagation matrix based on its thickness and refractive index.
 
-The overall system response is obtained from the product of all matrices:
-
-𝑇
-=
-𝑄
-0
-𝑃
-1
-𝑄
-1
-𝑃
-2
-𝑄
-2
-…
-T=Q
-0
-	​
-
-P
-1
-	​
-
-Q
-1
-	​
-
-P
-2
-	​
-
-Q
-2
-	​
-
-…
-
-From the total transfer matrix:
-
-Reflectivity 
-𝑅
-=
-∣
-Γ
-∣
-2
-R=∣Γ∣
-2
-
-Transmissivity 
-𝑇
-=
-∣
-𝜏
-∣
-2
-𝑛
-cell
-𝑛
-0
-T=∣τ∣
-2
-n
-0
-	​
-
-n
-cell
-	​
-
-	​
-
-
-This allows us to compute the full spectral response from 400–1400 nm.
+The overall system response is obtained from the product of all matrices from the total transfer matrixes.
+Which allows us to compute the full spectral response from 400–1400 nm.
 
 ✅ Results Summary
 1️⃣ Two-Layer AR Coating
