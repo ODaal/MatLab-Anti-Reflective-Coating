@@ -19,6 +19,7 @@ This project studies how wideband anti-reflective coatings improve the transmiss
 
 All simulations are performed using MATLAB, and the project includes analytical derivations, numerical modelling, and visualization of reflectivity spectra.
 
+--
 
 🧠 **Theoretical Background**
 
@@ -31,7 +32,8 @@ Each layer is represented by a propagation matrix based on its thickness and ref
 The overall system response is obtained from the product of all matrices from the total transfer matrixes.
 Which allows us to compute the full spectral response from 400–1400 nm.
 
-
+--
+  
 ✅ **Results Summary**
 
 1️⃣ Two-Layer AR Coating
@@ -55,6 +57,7 @@ Additional tests for n₂ = 2.13, 1.83, 2.73, 3.03
 
 These confirm the analytical optimum.
 
+--
 
 2️⃣ Three-Layer AR Coating
 
@@ -70,7 +73,7 @@ Power vs. Refractive Index Plot
 
 A parametric sweep from n₂ = 0.01 → 4 shows maximum transmitted power near 2.22, confirming the analytical result.
 
-
+--
 
 💬 **Discussion**
 
@@ -84,6 +87,7 @@ Both analytical and numerical results match closely, validating the TMM approach
 
 Performance strongly depends on choosing the correct refractive index ratios.
 
+--
 
 🔚 **Conclusion**
 
