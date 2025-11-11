@@ -57,7 +57,6 @@ Additional tests for n₂ = 2.13, 1.83, 2.73, 3.03
 
 These confirm the analytical optimum.
 
---
 
 2️⃣ Three-Layer AR Coating
 
